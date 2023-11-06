@@ -1,6 +1,4 @@
 # portfolio
-
-[shlrley.github.io/portfolio](https://shlrley.github.io/portfolio/)
  
 
 Welcome! This repository contains the code used to create my data science portfolio website.
