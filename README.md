@@ -19,3 +19,4 @@ Welcome! This repository contains the code used to create my data science portfo
 
 - [Personal Portfolio Website using HTML & CSS](https://www.youtube.com/watch?v=RroDdybvu5s)
 - [Animated Mesh Gradient Background With CSS](https://www.youtube.com/watch?v=chBbP1Z6eEQ)
+- [CSS Card Hover Effects](https://www.youtube.com/watch?v=6-QoF1qY9Bw)
