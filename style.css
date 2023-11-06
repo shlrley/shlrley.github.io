@@ -56,3 +56,21 @@ img {
     border-radius: 50%;
     width: 70%;
 }
+
+.portfolio {
+    background: #F5F2ED;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 0 10%;
+}
+
+.portfolio-text {
+    padding: 20px;
+}
+
+.portfolio-text h1 {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 15px 0;
+}
