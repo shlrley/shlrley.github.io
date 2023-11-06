@@ -1,9 +1,6 @@
 # portfolio
 
-<img width="941" alt="portfolio_title" src="https://github.com/shlrley/portfolio/assets/70875076/7bafc54e-9c60-4407-8069-1aedb781923d">
-
-<br>
-<br>
+[Site](https://shlrley.github.io/portfolio/)
 
 
 Welcome! This repository contains the code used to create my data science portfolio website. 
