@@ -10,13 +10,23 @@
 
 <body>
 
-    <section class="home">
+    <!-----Navigation bar----->
+    <header class="header">
+        <a href="#home" class="active">Shirley Zhang</a>
+        <nav class="navbar">
+            <a href="#portfolio">Portfolio</a>
+            <a href="#resume">Resume</a>
+            <a href="#connect">Connect</a>
+        </nav>
+    </header>
 
+    <!-----Home page----->
+    <section class="home" id="home">
         <div class="home-text">
             <h3>
                 <img src="images/icon_location.png" alt="location-icon">Vancouver, Canada
             </h3>
-            <h1>Hi, I'm Shirley Zhang </h1>
+            <h1>Hi, I'm Shirley Zhang</h1>
             <p>I’m a junior data scientist with a passion for uncovering valuable insights from data.</p>
         </div>
 
@@ -24,25 +34,162 @@
             <img src="images/pfp.png" alt="pfp">
         </div>
 
+        <div class="absolute-left">
+            <div class=""absolute inset-0 justify-center">
+                <div class="bg-shape1 bg-navy opacity-70 bg-blur"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="absolute-right">
+            <div class=""absolute inset-0 justify-center">
+                <div class="bg-shape2 bg-teal opacity-90 bg-blur"></div>
+                </div>
+            </div>
+        </div>
+
     </section>
 
-    <section class="portfolio">
-
+    <!-----Portfolio header----->
+    <section class="portfolio" id="portfolio">
+       
         <div class="portfolio-text">
             <h1>Portfolio</h1>
         </div>
-
+        
     </section>
 
+    <!-----Portfolio cards----->
+    <section class="portfoliocards">
 
-    <section class="resume">
+        <div class="container">
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>Description asdjklewjriaej ijdflawej kjfsl dfa</p>
+            </div>
 
-        <div class="resume-text">
-            <h1>Resume</h1>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>Description</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Project 3</h3>
+                <p>Description</p>
+            </div>
         </div>
 
     </section>
 
+
+    <!-----Resume header----->
+    <section class="resume" id="resume">
+        <div class="resume-text">
+            <h1>Resume</h1>
+        </div>
+        <div class="resume-pdf">
+            <p><a href="https://drive.google.com/file/d/1X2qPXE4cGHH1UGSzioo0PaO5BA7C4Pxp/view?usp=sharing" target="_blank">PDF version</a></span>
+        </div>
+    </section>
+
+    <!-----Resume content----->
+    <!-----EDUCATION----->
+    <section class="resume-education">
+        <div class="resume-section-title">
+            <h2>Education</h2>
+        </div>
+        <div class="resume-section-desc">
+            <h4>Education 1</h4>
+            <p>Education 1 description</p>
+            <br>
+            <h4>Education 2</h4>
+            <p>Education 2 description</p>
+        </div>
+    </section>
+    <!-----SKILLS----->
+    <section class="resume-skills">
+        <div class="resume-section-title">
+            <h2>Skills</h2>
+        </div>
+        <div class="resume-section-desc">
+            <h4>Skill section 1</h4>
+            <p>Skill section 1 description</p>
+            <br>
+            <h4>Skill section 2</h4>
+            <p>Skill section 2 description</p>
+            <br>
+            <h4>Skill section 3</h4>
+            <p>Skill section 3 description</p>
+        </div>
+    </section>
+    <!-----EXPERIENCE----->
+    <section class="resume-experience">
+        <div class="resume-section-title">
+            <h2>Experience</h2>
+        </div>
+        <div class="resume-section-desc">
+            <h4>Experience 1</h4>
+            <p>Experience 1 description</p>
+            <p>Experience 1 description</p>
+            <br>
+            <h4>Experience 2</h4>
+            <p>Experience 2 description</p>
+            <p>Experience 2 description</p>
+            <br>
+            <h4>Experience 3</h4>
+            <p>Experience 3 description</p>
+            <p>Experience 3 description</p>
+            <br>
+            <h4>Experience 4</h4>
+            <p>Experience 4 description</p>
+            <p>Experience 4 description</p>
+            <br>
+        </div>
+    </section>
+    <!-----PROJECTS----->
+    <section class="resume-projects">
+        <div class="resume-section-title">
+            <h2>Projects</h2>
+        </div>
+        <div class="resume-section-desc">
+            <h4>Project 1</h4>
+            <p>Project 1 description</p>
+            <p>Project 1 description</p>
+            <br>
+            <h4>Project 2</h4>
+            <p>Project 2 description</p>
+            <p>Project 2 description</p>
+            <br>
+            <h4>Project 3</h4>
+            <p>Project 3 description</p>
+            <p>Project 3 description</p>
+            <br>
+            <h4>Project 4</h4>
+            <p>Project 4 description</p>
+            <p>Project 4 description</p>
+            <br>
+        </div>
+    </section>
+
+    <!-----Connect header----->
+    <section class="connect" id="connect">
+       
+        <div class="connect-text">
+            <h1>Connect</h1>
+        </div>
+        
+    </section>
+
+    <!-----Footer section----->
+    <div class="footer">
+        <p>
+            <span class="left">ⓒ Shirley Zhang 2023</span>
+            <span class="right">Design inspired by <a href="https://jordan-hughes-cloneable.webflow.io/" target="_blank">Jordan Hughes</a></span>
+        </p>
+    </div>
+  
+
+    
 </body>
 
 </html>
