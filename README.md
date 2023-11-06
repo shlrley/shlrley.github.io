@@ -9,7 +9,7 @@ Welcome! This repository contains the code used to create my data science portfo
 
 ## Resources used
 
-**Design inspirations**
+**Designing**
 
 - [Jordan Hughes' portfolio designs](https://webflow.com/made-in-webflow/website/Indi-Harris-one-page-personal-site)
 - [Figma tutorial](https://www.youtube.com/watch?v=HZuk6Wkx_Eg)
