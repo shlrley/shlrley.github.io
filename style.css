@@ -54,7 +54,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 100vh;
+    height: 90vh;
     padding: 0 10%;
 }
 
@@ -120,6 +120,7 @@ body {
     justify-content: left;
     display: inline-flex;
     flex-direction: row;
+    z-index: -1;
 }
 
 .bg-shape1 {
@@ -158,6 +159,7 @@ body {
     justify-content: right;
     display: inline-flex;
     flex-direction: row;
+    z-index: -1;
 }
 
 .bg-shape2 {
@@ -187,6 +189,27 @@ body {
         left: 100px;
         top: -50px;
     }
+}
+
+.footer-home {
+    background: transparent;
+    text-align: left;
+    padding: 15px 155px 0px 155px;
+    height: 10vh;
+  }
+  
+.footer-home p {
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+ }
+
+.footer-home a {
+    color: #000000;
+}
+
+.footer-home a:hover {
+    color: white;
 }
 
 /* Portfolio header section*/
@@ -371,65 +394,69 @@ body {
 .resume-section-title {
     width: 30%;
     text-align: left;
+    font-size: 14px;
 }
 
 .resume-section-desc {
     width: 70%;
     text-align: left;
     padding: 10px;
+    font-size: 16px;
 }
 
 .resume-education {
     display: flex;
     justify-content: left;
     height: 20vh;
-    padding: 0 200px;
+    padding: 0 230px;
 }
 
 .resume-skills {
     display: flex;
     justify-content: left;
     height: 30vh;
-    padding: 0 200px;
+    padding: 0 230px;
 }
 
 .resume-experience {
     display: flex;
     justify-content: left;
     height: 50vh;
-    padding: 0 200px;
+    padding: 0 230px;
 }
 
 .resume-projects {
     display: flex;
     justify-content: left;
     height: 50vh;
-    padding: 0 200px;
+    padding: 0 230px;
 } 
 
-/* Connect header section*/
-.connect {
-    background: #F5F2ED;
-    display: flex;
-    justify-content: space-between;
-    height: 20vh;
-    padding: 0 10%;
+.footer-connect {
+    background: transparent;
+    text-align: left;
+    padding: 15px 155px 0px 155px;
+    height: 7vh;
+  }
+  
+.footer-connect p {
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+ }
+
+.footer-connect a {
+    color: #000000;
 }
 
-.connect-text {
-    padding: 50px;
-}
-
-.connect-text h1 {
-    font-size: 30px;
-    font-weight: 500;
-    margin: 15px 0;
+.footer-connect a:hover {
+    color: white;
 }
 
 .footer {
-    background: #F5F2ED;
+    background: transparent;
     text-align: left;
-    padding: 48px 180px 60px 180px;
+    padding: 48px 155px 60px 155px;
   }
   
 .footer p {
