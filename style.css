@@ -85,6 +85,12 @@ body {
     margin: 15px 0;
 }
 
+.home-text .icon-arrow  {
+    position: relative;
+    width: 5%;
+    margin-top: -15px;
+}
+
 .home-image {
     width: 50%;
     text-align: center;
@@ -92,7 +98,7 @@ body {
 
 .home-image img {
     border-radius: 50%;
-    width: 70%;
+    width: 75%;
 }
 
 
@@ -284,16 +290,16 @@ body {
     display: block;
     width: 100%;
     height: 80%;
-    background: white;
+    background: #F5F2ED;
     z-index: 2;
-    transition: 0.5s all;
+    transition: 0.3s all;
     opacity: 0;
     border-radius: 10px;
 }
 
 .project-card:hover:before {
     border-radius: 10px;
-    opacity: 0.6;
+    opacity: 0.8;
 }
 
 .project-card img {
@@ -304,6 +310,7 @@ body {
     top: 0;
     left: 0;
     border-radius: 10px;
+    filter: blur(0.5px);
 }
 
 .project-card .info {
@@ -330,7 +337,7 @@ body {
 .project-card .text-below {
     position: absolute;
     z-index: 3;
-    top: 255px;
+    top: 260px;
 }
 
 .project-card .text-below h4 {
@@ -339,9 +346,10 @@ body {
 }
 
 .project-card .text-below p {
-    font-size: 14px;
+    font-size: 13px;
     font-style: italic;
     margin-top: 3px;
+    color: rgb(95, 95, 95);
 }
 
 .project-card a::before {
@@ -398,7 +406,14 @@ body {
 }
 
 .resume-section-desc {
-    width: 70%;
+    width: 55%;
+    text-align: left;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.resume-section-date {
+    width: 15%;
     text-align: left;
     padding: 10px;
     font-size: 16px;
