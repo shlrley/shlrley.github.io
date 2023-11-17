@@ -3,7 +3,7 @@
 
 Welcome! This repository contains the code used to create my data science portfolio website.
 
-> \> Visit the site here: https://shlrley.github.io/
+> Visit the site here: https://shlrley.github.io/
 
 **👩🏻‍💻 Technologies used**
 
