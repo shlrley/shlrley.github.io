@@ -3,7 +3,7 @@
 
 Welcome! This repository contains the code used to create my data science portfolio website.
 
-**👩🏻‍💻 Tools**
+**👩🏻‍💻 Technologies used**
 
 - Figma 
 - HTML
