@@ -85,7 +85,7 @@ body {
     margin: 15px 0;
 }
 
-.home-text .icon-arrow  {
+.home-text .icon-arrow {
     position: relative;
     width: 5%;
     margin-top: -15px;
@@ -202,13 +202,13 @@ body {
     text-align: left;
     padding: 15px 155px 0px 155px;
     height: 10vh;
-  }
-  
+}
+
 .footer-home p {
     color: black;
     font-size: 15px;
     font-weight: 400;
- }
+}
 
 .footer-home a {
     color: #000000;
@@ -267,7 +267,7 @@ body {
     float: left;
     margin: 12px;
     box-sizing: border-box;
-    border-radius: 10px;
+    border-radius: 5px;
     text-align: left;
     bottom: 0;
 
@@ -275,7 +275,7 @@ body {
     display: flex;
     align-items: flex-end;
 
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 .project-card:hover {
@@ -294,11 +294,11 @@ body {
     z-index: 2;
     transition: 0.3s all;
     opacity: 0;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .project-card:hover:before {
-    border-radius: 10px;
+    border-radius: 5px;
     opacity: 0.8;
 }
 
@@ -309,7 +309,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    border-radius: 10px;
+    border-radius: 5px;
     filter: blur(0.5px);
 }
 
@@ -400,13 +400,13 @@ body {
 
 /* Resume content section */
 .resume-section-title {
-    width: 30%;
+    width: 20%;
     text-align: left;
     font-size: 14px;
 }
 
 .resume-section-desc {
-    width: 55%;
+    width: 60%;
     text-align: left;
     padding: 10px;
     font-size: 16px;
@@ -415,29 +415,35 @@ body {
 .resume-section-date {
     width: 15%;
     text-align: left;
-    padding: 10px;
+    padding: 15px;
     font-size: 16px;
 }
 
 .resume-education {
     display: flex;
     justify-content: left;
-    height: 20vh;
+    height: 18vh;
     padding: 0 230px;
 }
 
 .resume-skills {
     display: flex;
     justify-content: left;
-    height: 30vh;
+    height: 32vh;
     padding: 0 230px;
 }
 
 .resume-experience {
     display: flex;
     justify-content: left;
-    height: 50vh;
+    height: 77vh;
     padding: 0 230px;
+}
+
+.resume-experience h5 {
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 400;
 }
 
 .resume-projects {
@@ -445,20 +451,20 @@ body {
     justify-content: left;
     height: 50vh;
     padding: 0 230px;
-} 
+}
 
 .footer-connect {
     background: transparent;
     text-align: left;
     padding: 15px 155px 0px 155px;
     height: 7vh;
-  }
-  
+}
+
 .footer-connect p {
     color: black;
     font-size: 15px;
     font-weight: 400;
- }
+}
 
 .footer-connect a {
     color: #000000;
@@ -472,13 +478,13 @@ body {
     background: transparent;
     text-align: left;
     padding: 48px 155px 60px 155px;
-  }
-  
+}
+
 .footer p {
     color: black;
     font-size: 15px;
     font-weight: 400;
- }
+}
 
 .footer a {
     color: #000000;
@@ -494,4 +500,4 @@ body {
 
 .right {
     float: right;
-} 
+}
